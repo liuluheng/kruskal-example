@@ -71,6 +71,7 @@ int main() {
     //std::cout << weight << u << v << std::endl;
     es.push_back(make_pair(weight, make_pair(u, v)));
   }
+  input.close();
 
   std::cout << "Cost of minimum spanning tree: " << kruskal(n, es) << std::endl;
 }
